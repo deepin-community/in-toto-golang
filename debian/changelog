@@ -1,5 +1,18 @@
-template-repository (1.0-1) unstable; urgency=medium
+in-toto-golang (0.9.0+ds-3) unstable; urgency=medium
 
-  * Initial release
+  * Fix autopkgtest failures by avoiding alterations to a reference
+    tarball for the test suite
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Reinhard Tartler <siretart@tauware.de>  Wed, 26 Jun 2024 20:36:39 -0400
+
+in-toto-golang (0.9.0+ds-2) unstable; urgency=medium
+
+  * Upload to unstable
+
+ -- Reinhard Tartler <siretart@tauware.de>  Thu, 16 May 2024 08:14:10 -0400
+
+in-toto-golang (0.9.0+ds-1) experimental; urgency=medium
+
+  * Initial release (Closes: #1060818)
+
+ -- Simon Josefsson <simon@josefsson.org>  Fri, 19 Jan 2024 10:09:34 +0100
